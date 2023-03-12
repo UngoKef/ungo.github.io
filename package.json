@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/UngoKef/ungo.github.io#readme",
   "dependencies": {
-    "sass": "^1.58.3"
+    "sass": "^1.59.2"
   }
 }
