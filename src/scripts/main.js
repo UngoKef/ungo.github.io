@@ -28,19 +28,19 @@ const body = (() => {
    *
    ************************/
   function checkLink(sr) {
-    if(link === '/' || link === '/index.html') {
+    if(link === '/' || link === '/index.html' || link === '/ungo.github.io/') {
       sr[0].style.color = 'red';
     }
-    else if(link === '/matsedill_ungo.html') {
+    else if(link === '/matsedill_ungo.html' || link === '/ungo.github.io/madsedill_ungo.html') {
       sr[1].style.color = 'red';
     }
-    else if(link === '/tilbod_ungo.html') {
+    else if(link === '/tilbod_ungo.html' || link === '/ungo.github.io/tilbod_ungo.html') {
       sr[2].style.color = 'red';
     }
-    else if(link === '/um_ungo.html') {
+    else if(link === '/um_ungo.html' || link === '/ungo.github.io/um_ungo.html') {
       sr[3].style.color = 'red';
     }
-    else if(link === '/english_menu_ungo.html') {
+    else if(link === '/english_menu_ungo.html' || link === '/ungo.github.io/english_menu_ungo.html') {
       sr[4].style.color = 'red';
     }
   }
