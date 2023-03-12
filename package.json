@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/UngoKef/ungo.github.io/issues"
   },
-  "homepage": "https://github.com/UngoKef/ungo.github.io#readme"
+  "homepage": "https://github.com/UngoKef/ungo.github.io#readme",
+  "dependencies": {
+    "sass": "^1.58.3"
+  }
 }

@@ -1,0 +1,39 @@
+@charset "utf-8";
+$font-ungo: 'Sacramento', cursive;
+$font-size-ungo: 400;
+$font-main: 'Rokkitt', serif;
+$font-size-header: 700;
+$font-openhour: 'Exo 2', sans-serif;
+$font-size-openhour: 200;
+$max-width: 1280px;
+$color-page: #faebd7;
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+html { /* stylelint-disable-line */
+  box-sizing: border-box;
+  display: block;
+
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  font-family: $font-main;
+  font-size: 1em;
+  color: white;
+  // background-color: $color-page;
+  background-color: #222;;
+  // background-image: repeating-linear-gradient(to bottom, transparent 7px, rgba(0, 0, 0, 0.8) 9px, rgba(0, 0, 0, 0.8) 13px, transparent 13px);
+  margin: 0 auto;
+  width: 100%;
+
+}
+
+@import "header.scss";
+@import "main.scss";
+@import "footer.scss";

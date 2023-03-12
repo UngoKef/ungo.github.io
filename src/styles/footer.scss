@@ -1,0 +1,68 @@
+.footer {
+    width: $max-width;
+    margin: 0 auto;
+
+    .icon {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0 0 0;
+
+        &_image {
+            width: 6rem;
+            height: 5rem;
+            padding: 0 5px 0 5px;
+        }
+    }
+    .direction {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 0 2rem 0;
+        .nafnstadur {
+            font-size: 4.5rem;
+            text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+            color: #fff6a9;
+            font-family: $font-ungo;
+        }
+        .stadsetningur, .simanr {
+            font-size: 2rem;
+            font-family: $font-ungo;
+            text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+            color: #fff6a9;
+        }
+    }
+
+    .openhour {
+        p {
+            display: flex;
+            justify-content: center;
+            font-family: $font-openhour;
+            font-size: 2.5rem;
+            color: #fff;
+            padding: 2rem 4rem 2rem;
+            margin-top: 1.25rem;
+            border: 0.4rem solid #fff;
+            border-radius: 2rem;
+            text-transform: uppercase;
+            // animation: flicker 1.5s infinite alternate;
+            --neon-text-color: #f40;
+            --neon-border-color: #08f;
+            text-shadow: -0.2rem -0.2rem 1rem #fff, 0.2rem 0.2rem 1rem #fff, 0 0 2rem var(--neon-text-color), 0 0 4rem var(--neon-text-color), 0 0 6rem var(--neon-text-color), 0 0 8rem var(--neon-text-color), 0 0 10rem var(--neon-text-color);
+            box-shadow: 0 0 .5rem #fff, inset 0 0 .5rem #fff, 0 0 2rem var(--neon-border-color), inset 0 0 2rem var(--neon-border-color), 0 0 4rem var(--neon-border-color), inset 0 0 4rem var(--neon-border-color);
+        }
+    }
+}
+
+
+/* Animate neon flicker */
+@keyframes flicker {
+
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        text-shadow: -0.2rem -0.2rem 1rem #fff, 0.2rem 0.2rem 1rem #fff, 0 0 2rem var(--neon-text-color), 0 0 4rem var(--neon-text-color), 0 0 6rem var(--neon-text-color), 0 0 8rem var(--neon-text-color), 0 0 10rem var(--neon-text-color);
+        box-shadow: 0 0 .5rem #fff, inset 0 0 .5rem #fff, 0 0 2rem var(--neon-border-color), inset 0 0 2rem var(--neon-border-color), 0 0 4rem var(--neon-border-color), inset 0 0 4rem var(--neon-border-color);
+    }
+
+    20%, 24%, 55% {
+        text-shadow: none;
+        box-shadow: none;
+    }
+}

@@ -1,0 +1,78 @@
+main {
+    padding-top: 10em;
+}
+
+.menu {
+    max-width: $max-width;
+    margin: 0 auto;
+
+    .pict img {
+        width: 100%;
+        padding: 20px 0 20px 0;
+        border-radius: 125px;
+    }
+
+    .pizza, .ham, .lokur, .samlokur, .pylsurOgFiskur, .medlaeti {
+        padding: 0 40px;
+        &__header {
+            display: flex;
+            justify-content: center;
+            font-size: 2.5rem;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: red;
+        }
+        &__container {
+            display: flex;
+            justify-content: center;
+
+            &--left {
+                width: 50%;
+            }
+
+            &--right {
+                width: 50%;
+            }
+        }
+        &__items {
+            padding-bottom: 10px;
+            .nafn {
+                font-size: 1.8rem;
+                .italicAndSmaller {
+                    font-size: 1.4rem;
+                }
+            }
+            .lysing {
+                font-size: 1.2rem;
+                font-style: italic;
+            }
+            .verd {
+                color: red;
+            }
+        }
+
+        &__footer {
+            padding-top: 20px;
+            .verd {
+                color: red;
+            }
+            h2, h3 {
+                font-style: italic;
+            }
+        }
+        .ostur, .kjot, .gr, .sosa {
+            display: flex;
+            font-style: italic;
+
+            &__items {
+                border-style: solid;
+                border-color: white;
+                border-width: 1px;
+                border-radius: 9px;
+                padding: 5px;
+                margin: 5px 5px 10px 5px;
+            }
+
+        }
+    }
+}
