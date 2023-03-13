@@ -31,7 +31,7 @@ const body = (() => {
     if(link === '/' || link === '/index.html' || link === '/ungo.github.io/') {
       sr[0].style.color = 'red';
     }
-    else if(link === '/matsedill_ungo.html' || link === '/ungo.github.io/madsedill_ungo.html') {
+    else if(link === '/matsedill_ungo.html' || link === '/ungo.github.io/matsedill_ungo.html') {
       sr[1].style.color = 'red';
     }
     else if(link === '/tilbod_ungo.html' || link === '/ungo.github.io/tilbod_ungo.html') {
