@@ -5,7 +5,8 @@ $font-main: 'Rokkitt', serif;
 $font-size-header: 700;
 $font-openhour: 'Exo 2', sans-serif;
 $font-size-openhour: 200;
-$max-width: 1280px;
+$max-width: 1000px;
+// $max-width: 1000px;
 $color-page: #faebd7;
 
 *,
@@ -27,10 +28,11 @@ html { /* stylelint-disable-line */
   font-size: 1em;
   color: white;
   // background-color: $color-page;
-  background-color: #222;;
   // background-image: repeating-linear-gradient(to bottom, transparent 7px, rgba(0, 0, 0, 0.8) 9px, rgba(0, 0, 0, 0.8) 13px, transparent 13px);
+  width: $max-width;
+  padding: 30px 30px 0px 30px;
   margin: 0 auto;
-  width: 100%;
+  background-color: #222;;
 
 }
 

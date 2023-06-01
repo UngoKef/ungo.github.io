@@ -12,9 +12,10 @@ html { /* stylelint-disable-line */
   font-family: "Rokkitt", serif;
   font-size: 1em;
   color: white;
-  background-color: #222;
+  width: 1000px;
+  padding: 30px 30px 0px 30px;
   margin: 0 auto;
-  width: 100%;
+  background-color: #222;
 }
 
 .header {
@@ -22,19 +23,6 @@ html { /* stylelint-disable-line */
   justify-content: space-between;
   align-items: center;
   font-weight: 700;
-}
-.header_container {
-  padding: 15px 50px 0px 50px;
-  border-style: double;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom-color: gray;
-  width: 100%;
-  height: 100px;
-  position: fixed;
-  transition: top 0.3s;
-  background-color: #222;
 }
 .header__leftsection__title {
   font-size: 5em;
@@ -81,12 +69,8 @@ html { /* stylelint-disable-line */
     color: #fff6a9;
   }
 }
-main {
-  padding-top: 10em;
-}
-
 .menu {
-  max-width: 1280px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 .menu .pict img {
@@ -103,7 +87,7 @@ main {
   font-size: 2.5rem;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: red;
+  color: #ff726f;
 }
 .menu .pizza__container, .menu .ham__container, .menu .lokur__container, .menu .samlokur__container, .menu .pylsurOgFiskur__container, .menu .medlaeti__container {
   display: flex;
@@ -116,7 +100,7 @@ main {
   width: 50%;
 }
 .menu .pizza__items, .menu .ham__items, .menu .lokur__items, .menu .samlokur__items, .menu .pylsurOgFiskur__items, .menu .medlaeti__items {
-  padding-bottom: 10px;
+  padding: 10px 5px;
 }
 .menu .pizza__items .nafn, .menu .ham__items .nafn, .menu .lokur__items .nafn, .menu .samlokur__items .nafn, .menu .pylsurOgFiskur__items .nafn, .menu .medlaeti__items .nafn {
   font-size: 1.8rem;
@@ -129,13 +113,13 @@ main {
   font-style: italic;
 }
 .menu .pizza__items .verd, .menu .ham__items .verd, .menu .lokur__items .verd, .menu .samlokur__items .verd, .menu .pylsurOgFiskur__items .verd, .menu .medlaeti__items .verd {
-  color: red;
+  color: #ff726f;
 }
 .menu .pizza__footer, .menu .ham__footer, .menu .lokur__footer, .menu .samlokur__footer, .menu .pylsurOgFiskur__footer, .menu .medlaeti__footer {
   padding-top: 20px;
 }
 .menu .pizza__footer .verd, .menu .ham__footer .verd, .menu .lokur__footer .verd, .menu .samlokur__footer .verd, .menu .pylsurOgFiskur__footer .verd, .menu .medlaeti__footer .verd {
-  color: red;
+  color: #ff726f;
 }
 .menu .pizza__footer h2, .menu .pizza__footer h3, .menu .ham__footer h2, .menu .ham__footer h3, .menu .lokur__footer h2, .menu .lokur__footer h3, .menu .samlokur__footer h2, .menu .samlokur__footer h3, .menu .pylsurOgFiskur__footer h2, .menu .pylsurOgFiskur__footer h3, .menu .medlaeti__footer h2, .menu .medlaeti__footer h3 {
   font-style: italic;
@@ -154,7 +138,7 @@ main {
 }
 
 .footer {
-  width: 1280px;
+  width: 1000px;
   margin: 0 auto;
 }
 .footer .icon {
@@ -172,13 +156,16 @@ main {
   justify-content: space-between;
   padding: 2rem 0 2rem 0;
 }
-.footer .direction .nafnstadur {
+.footer .direction .upplysingar {
+  text-decoration: none;
+}
+.footer .direction .upplysingar .nafnstadur {
   font-size: 4.5rem;
   text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
   color: #fff6a9;
   font-family: "Sacramento", cursive;
 }
-.footer .direction .stadsetningur, .footer .direction .simanr {
+.footer .direction .upplysingar .stadsetningur, .footer .direction .upplysingar .simanr {
   font-size: 2rem;
   font-family: "Sacramento", cursive;
   text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;

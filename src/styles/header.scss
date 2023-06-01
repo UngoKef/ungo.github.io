@@ -4,22 +4,22 @@
     align-items: center;
     font-weight: $font-size-header;
 
-    &_container {
-        padding: 15px 50px 0px 50px;
-        border-style: double;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        border-bottom-color: gray;
+    // &_container {
+    //     padding: 15px 50px 0px 50px;
+    //     border-style: double;
+    //     border-top: none;
+    //     border-left: none;
+    //     border-right: none;
+    //     border-bottom-color: gray;
 
-        width: 100%;
-        height: 100px;
-        // padding: 10px;
-        position: fixed;
-        transition: top 0.3s;
-        // background-color: $color-page;
-        background-color: #222;;
-    }
+    //     width: 100%;
+    //     height: 100px;
+    //     // padding: 10px;
+    //     position: fixed;
+    //     transition: top 0.3s;
+    //     // background-color: $color-page;
+    //     background-color: #222;;
+    // }
     &__leftsection {
         &__title {
             font-size: 5em;

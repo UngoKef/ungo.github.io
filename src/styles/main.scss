@@ -1,6 +1,6 @@
-main {
-    padding-top: 10em;
-}
+// main {
+//     padding-top: 10em;
+// }
 
 .menu {
     max-width: $max-width;
@@ -20,7 +20,7 @@ main {
             font-size: 2.5rem;
             padding-top: 10px;
             padding-bottom: 10px;
-            color: red;
+            color: #ff726f;
         }
         &__container {
             display: flex;
@@ -35,7 +35,8 @@ main {
             }
         }
         &__items {
-            padding-bottom: 10px;
+            padding: 10px 5px;
+
             .nafn {
                 font-size: 1.8rem;
                 .italicAndSmaller {
@@ -47,14 +48,14 @@ main {
                 font-style: italic;
             }
             .verd {
-                color: red;
+                color: #ff726f;
             }
         }
 
         &__footer {
             padding-top: 20px;
             .verd {
-                color: red;
+                color: #ff726f;
             }
             h2, h3 {
                 font-style: italic;
