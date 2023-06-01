@@ -166,6 +166,7 @@ html { /* stylelint-disable-line */
   font-family: "Sacramento", cursive;
 }
 .footer .direction .upplysingar .stadsetningur, .footer .direction .upplysingar .simanr {
+  text-decoration: none;
   font-size: 2rem;
   font-family: "Sacramento", cursive;
   text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
